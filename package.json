@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "clean": "del-cli ./dist",
-    "sass": "sass ./scss/:dist/",
-    "sass:no-map": "sass --no-source-map ./scss/:dist/"
+    "sass": "sass .src/assets/scss/:dist/assets",
+    "sass:no-map": "sass --no-source-map ./src/assets/scss/:dist/assets"
   },
   "devDependencies": {
     "del-cli": "^4.0.1",
